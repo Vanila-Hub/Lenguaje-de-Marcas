@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.main_main{
+    display: grid;
+    gap: 8px;
+    grid-template-rows: 85vh;
+    grid-template-areas: 
+    'main main main main aside'
+    'main main main main aside'
+    'footer footer footer footer footer'
+    ;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr 100px 100px 100px;
+    background-color: #27282a;
+    border-radius: 8px;
+    grid-area: main;
+    gap: 2px;
+}
+
+aside{
+    background-color: lightblue;
+    border-radius: 8px;
+    grid-area: aside;
+}
+footer{
+    background-color: #c4f142;
+    border-radius: 8px;
+    top: 54rem;
+    height: 10vh;
+    grid-area: footer;
+}
+.image1{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: blue;
+}
+
+.image2{
+
+    background-color: red;
+}
+.image3{
+
+    background-color: lightcoral;
+}
+.image4{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: lawngreen;
+}
