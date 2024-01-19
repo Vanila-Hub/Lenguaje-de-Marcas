@@ -1,0 +1,28 @@
+.inline-container {
+    display: inline-block;
+}
+
+.cajaL {
+    display: inline-block;
+    border: 2px solid #333;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f0f0f0;
+}
+
+.block-container {
+    display: block;
+}
+
+.cajaB {
+    border: 2px solid #333;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f0f0f0;
+}

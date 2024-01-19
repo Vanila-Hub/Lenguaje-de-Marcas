@@ -1,0 +1,74 @@
+body
+{
+    background-color: rgb(219, 216, 213);
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    background-image: url(/images/fondo.png);
+    color: #fff;
+    padding: 10px;
+}
+
+h1 b {
+    font-size: 24px;
+    color: #ffcc00;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+
+#Sobre_nosotros {
+    text-align: center;
+    background-color: #dbd8d5;
+    padding: 10px;
+}
+
+.img_colibri {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+
+#Productos {
+    text-align: center;
+    background-color: #dbd8d5;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#Contacto {
+    text-align: center;
+    background-color: #dbd8d5;
+    padding: 10px;
+}
+
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form label, form input {
+    margin-bottom: 10px;
+}

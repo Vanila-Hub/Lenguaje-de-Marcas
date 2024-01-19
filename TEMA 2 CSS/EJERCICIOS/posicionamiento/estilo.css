@@ -1,5 +1,8 @@
 body{height: 100vh;}
-/* .a { display: none;}
+/*POSIBLES OPCIONES DE LAS ETIQUETAS*/
+
+/* 
+.a { display: none;}
 .b { display: inline; width: 100px; height: 50px;}
 .c { display: block; }
 .d { display: inline-block; width: 100px; height: 50px;} */
@@ -7,26 +10,49 @@ body{height: 100vh;}
 /* .a { position: static; }
 .b { position: static; }
 .c { position: static; } */
-
+/*
 .bloque2 { position: relative; left: 20px; top: 10px; }
 
 .a {
     position: relative; /*cambia este valor a static para ver la
-    diferencia*/
+    diferencia
     width: 300px;
     height: 300px;
     border: 2px dotted purple;
-}
-
-.b {
+} 
+*/
+/* .b {
     position: absolute; /*Se posiciona de forma relativa al primer
-    elemento padre que tiene una posición distinta a static*/
+    elemento padre que tiene una posición distinta a static
     background-color: #EEEEEE;
     top: 60px;
     right: 0px;
     width: 200px;
     height: 80px;
     border: 3px solid green;
+}  */
+
+/* .bloque2 { position: fixed; top: 130px; left: 100px; } */
+
+/*OPCION A*/
+
+/* .a { display: none; border: solid black 2px;} con el display none desaparece la etiqueta del html ya que esta no se logra renderizar al iniciar la pagina */
+/*.b { display: inline; width: 100px; height: 50px; border: solid black 2px;}/*la etiqueta b, si no hereda el display:block de su padre lo que hace es ignorar las etiquetas de tamaño(wight,height) y coloca los divs en linea respetando los espacios necesarios para colocar el elemento*/
+/*.c { display: block; border: solid rgb(255, 0, 0) 2px; }/*por defecto el estilo esta en esta configuracion, pero se le aplica a los elementos html que no estan en bloque ejemplo etiquetas de linea(span,a,strong,etc)*/
+/*.d { display: inline-block; width: 100px; height: 50px; border: solid rgb(255, 230, 0) 2px;}/*con inline-block se quiere que el contenedor se comporte como si fuese display:inline pero que nos deje modificar sus propiedades de ancho y alto*/ 
+
+/*OPCION B Position:Static*/
+/*esta es la posicion por defecto de los elemento al añadirlos a la pagina, ignoran las instrucciones (top,left,etc. y la de z-index), ya que esta se ubica automaticamente siguiendo el flujo natural de la pagina web*/
+/* .a { position: static;  border: solid rgb(255, 0, 0) 2px; } */
+/* .b { position: static;  border: solid rgb(255, 217, 0) 2px;} */
+/* .c { position: static; left: 50000px; right: 89px;  border: solid rgb(234, 0, 255) 2px;} */
+
+/*OPCION C*/
+
+.a {
+    position: relative; 
+    width: 300px;
+    height: 300px;
+    border: 2px dotted purple;
 }
 
-.bloque2 { position: fixed; top: 130px; left: 100px; }

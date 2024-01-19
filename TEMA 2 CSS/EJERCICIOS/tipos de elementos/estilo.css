@@ -1,0 +1,18 @@
+/* Estilos para elementos de bloque */
+header,
+nav,
+main,
+section,
+aside,
+footer {
+    border: 2px solid #15ff00; /* Borde sólido de 2 píxeles de color gris oscuro */
+    margin: 10px; /* Margen para separar las cajas */
+    padding: 10px; /* Relleno para dar espacio interno a las cajas */
+}
+
+/* Estilos para elementos de línea */
+h1, h2, p, a, strong, em, span {
+    border: 1px solid #ff0000; /* Borde sólido de 1 píxel de color gris medio */
+    margin: 5px; /* Margen para separar las cajas */
+    padding: 5px; /* Relleno para dar espacio interno a las cajas */
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#contenedor-principal {
+    width: 100%;
+    background-color: #f0f0f0;
+    overflow: hidden; /* Para contener los elementos flotantes */
+}
+
+.noticia {
+    width: 30%;
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
