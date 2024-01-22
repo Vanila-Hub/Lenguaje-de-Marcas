@@ -9,14 +9,16 @@ a{
 h1{
     color: black;
 }
-ul{
+ul li{
     list-style-type: none;
+    display: inline;
 }
 header{
     background-color: #FF4945;
     height: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .main1{
     display: flex;
@@ -37,4 +39,6 @@ header{
 footer{
     background-color: #00778F;
     height: 100px;
+    position: relative;
+    top: -21px;
 }
