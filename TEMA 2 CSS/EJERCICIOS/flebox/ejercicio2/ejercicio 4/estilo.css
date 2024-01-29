@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans serif;
+}
+
+main{
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first-face {
+    background: #333;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+.second-face {
+    background: #333;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.third-face {
+    background: #333;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.fourth-face {
+    background: #333;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.fifth-face {
+    background: #333;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.sixth-face{
+    background: #333;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ 
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+ 
+.point {
+    width: 24px; height: 24px;
+    border-radius: 50%; background: #eee;    
+}
+

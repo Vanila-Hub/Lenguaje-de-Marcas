@@ -38,6 +38,7 @@ img{
 }
 .main2{
     display: flex;
+    height: max-content;
 }
 aside{
     width: 100%;
@@ -90,4 +91,11 @@ footer{
     font-size: 20px;
     width: 100%;
     padding: 12px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100vh;
+    justify-content: space-around;
 }
